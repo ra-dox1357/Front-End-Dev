@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background: url("/image/luke-chesser-pJadQetzTkI-unsplash.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.container {
+  width: 50%;
+  padding: 100px;
+  margin: 10px 0 0 350px;
+  background-color: whitesmoke;
+  border-bottom-color: yellow;
+  border-bottom: 10px;
+  border-radius: 20px;
+  overflow: visible;
+}
+
+h1 {
+  color: black;
+  font-size: 3rem;
+}
+.container hr {
+  border: 1px solid black;
+}
+.container input {
+  margin: 15px auto;
+  width: 70%;
+  padding: 10px;
+  outline: none;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
+#add-task {
+  padding: 5px;
+  width: 25%;
+  background-color: #1e90ff;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#add-task:hover {
+  background-color: darkblue;
+}
+
+#task-list {
+  margin-left: 5px;
+  margin-top: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  overflow: hidden;
+}
+
+ul li {
+  padding: 7px;
+  margin: 2px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button.remove {
+  background-color: #48d1cc;
+  padding: 3px;
+  margin-left: 5px;
+  border-radius: 7px;
+  color: black;
+}
+
+button.remove:hover {
+  background-color: #00fa9a;
+}
