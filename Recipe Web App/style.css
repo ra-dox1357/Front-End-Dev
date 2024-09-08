@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffebcd;
+}
+
+.container {
+  max-width: 700px;
+  min-height: 1200px;
+  background-color: hsl(0, 0%, 100%);
+  margin: 50px 0 0 350px;
+  padding: 50px;
+  border-radius: 20px;
+}
+
+.img-container img {
+  width: 500px;
+  height: 500px;
+  margin: 5px 0 0 50px;
+  border-radius: 20px;
+}
+
+.content-container h3 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-size: 2.2rem;
+  margin: 50px 0 0 50px;
+}
+
+.content-container p {
+  font-family: sans-serif;
+  font-weight: 200;
+  font-size: 1rem;
+  margin: 10px 0 0 50px;
+}
+
+.prep-container {
+  background-color: rgb(238, 130, 238, 0.1);
+  width: 550px;
+  margin: 50px 0 0 50px;
+  padding: 90px;
+  border-radius: 20px;
+}
+
+.prep-container h5 {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #9d159d;
+}
+
+.prep-container ul li {
+  font-family: sans-serif;
+  font-weight: 200;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+#bold {
+  font-weight: 700;
+}
+
+.content-2 h3 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-size: 2rem;
+  color: #a52a2a;
+  margin: 50px 0 0 50px;
+}
+
+.content-2 ul li {
+  font-family: sans-serif;
+  font-weight: 200;
+  font-size: 1rem;
+  line-height: 1.7rem;
+  margin: 10px 0 0 50px;
+}
+
+.content-3 h3 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-size: 2rem;
+  color: #a52a2a;
+  margin: 50px 0 0 50px;
+}
+
+.content-2 ol li {
+  font-family: sans-serif;
+  font-weight: 200;
+  font-size: 1rem;
+  line-height: 1.7rem;
+  margin: 10px 0 0 50px;
+  word-wrap: break-word;
+}
+
+#line {
+  width: 90%;
+  margin: 50px auto;
+  border: 1px solid #f1f1f1;
+}
